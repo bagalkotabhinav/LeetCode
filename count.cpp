@@ -9,10 +9,3 @@ int main()
     cout << countDigit(0) << endl;
     return 0;
 }
-
-
-
-// 0-9 ->1
-// 10-99 ->2
-// 100-999 ->3
-// ....any interval ->1+logn
